@@ -1,0 +1,75 @@
+:root {
+    --primary-text-color:#757575;
+    --title-text-color :#212121;
+    --minor-color: #FFFFFF;
+    --accent-color: #2196F3;
+    --primary-background-color: #FFFFFF;
+    --secondary-background-color: #2F303A;
+}
+
+body {
+    background-color: var(--primary-background-color);
+    color: var(--primary-text-color);
+}
+.list {
+    list-style: none;
+}
+
+/* site-nav*/
+
+.site-nav .link {
+    color: var(--title-text-color);
+}
+.site-nav .link:hover,
+.site-nav .link:focus{
+    color: var(--accent-color);
+}
+.site-nav .link.current{
+    color: var(--accent-color);
+}
+
+/*contact-nav*/
+
+.contact-nav .link{
+    color: var(--title-text-color);
+}
+.contact-nav .link:hover,
+.contact-nav .link:focus{
+    color: var(--accent-color);
+}
+
+/*hero*/
+
+.hero {
+    background-color: #2F303A;
+}
+.hero-title{
+    color: var(--minor-color);
+}
+.hero-button{
+    background-color: var(--accent-color);
+    color: var(--minor-color);    
+}
+
+.section-title{
+    color: var(--title-text-color);
+}
+
+.feature-title{
+    color: var(--title-text-color);
+}
+.team-member-name{
+    color: var(--title-text-color);
+}
+
+.footer{
+    background-color:#2F303A;
+}
+.contact-list .address{
+    color: var(--minor-color);
+}
+
+.contact-list .link {
+    color:#FFFFFF60;
+}
+
