@@ -8,6 +8,7 @@
 }
 
 body {
+    font-family: 'Roboto', sans-serif;
     background-color: var(--primary-background-color);
     color: var(--primary-text-color);
 }
@@ -16,9 +17,17 @@ body {
 }
 
 /* site-nav*/
-
+.logo{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+}
 .site-nav .link {
     color: var(--title-text-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
 }
 .site-nav .link:hover,
 .site-nav .link:focus{
@@ -32,10 +41,14 @@ body {
 
 .contact-nav .link{
     color: var(--title-text-color);
+    font-size: 14px;
 }
 .contact-nav .link:hover,
 .contact-nav .link:focus{
     color: var(--accent-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
 }
 
 /*hero*/
@@ -45,31 +58,79 @@ body {
 }
 .hero-title{
     color: var(--minor-color);
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 60px;
 }
 .hero-button{
     background-color: var(--accent-color);
     color: var(--minor-color);    
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
 }
 
 .section-title{
     color: var(--title-text-color);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
 }
 
 .feature-title{
     color: var(--title-text-color);
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
 }
-.team-member-name{
-    color: var(--title-text-color);
+.feature-text{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
 }
 
+.team-member-name{
+    color: var(--title-text-color);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+}
+.team-member.position{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+}
 .footer{
     background-color:#2F303A;
 }
 .contact-list .address{
     color: var(--minor-color);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
 }
 
 .contact-list .link {
     color:#FFFFFF60;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+}
+.contact-list .link:hover,
+.contact-list .link:focus{
+    color: var(--accent-color);
+}
+/*portfolio*/
+
+.filter-button{
+    color: var(--title-text-color);
+}
+.filter-button:hover,
+.filter-button:focus{
+    color: var(--minor-color);
+    background-color: var(--accent-color);
 }
 
+.product-name{
+    color: var(--title-text-color);
+}
