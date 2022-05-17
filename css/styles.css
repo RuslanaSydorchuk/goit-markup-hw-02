@@ -132,13 +132,14 @@ body {
 }
 .contact-list .address{
     color: var(--minor-color);
-    font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
 }
-
+address{
+    font-style: normal;
+}
 .contact-list .link {
     color:#FFFFFF60;
     font-size: 14px;
